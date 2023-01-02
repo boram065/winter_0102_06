@@ -5,6 +5,7 @@ public class ProductVO {
 	private int price;
 	private int productNum;
 	private int stockNum;
+	private String imageName;
 	
 	public ProductVO() {
 		
@@ -45,4 +46,11 @@ public class ProductVO {
 		this.stockNum = stockNum;
 	}
 
-}
+	public String getImageName() {
+		return imageName;
+	}
+	public void setImageName(String imageName) {
+		this.imageName = imageName;
+	}
+
+}//class
